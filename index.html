@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="checkbox" id="close-menu" class="close-menu" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <nav class="nav-bar">
+        <div class="nav-bar-content">
+            <div class="logo">
+                <h3 onclick="getElementById('close-menu').checked = false"><a href="#">Moura.dev</a></h3>
+            </div>
+            <div class="menu">
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content">
+                <div class="main-home">
+                    <div class="main-home-text">
+                        <h1>Back-End NodeJs Developer</h1>
+                        <p>Olá, me chamo Yuri Moura. Um apaixonado Desenvolvedor Back-end NodeJs nascido no Rio de Janeiro, Brasil. 📍</p>
+                        <span class="social-links"><a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/yuri-moura-dev"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a><a aria-label="github" rel="noreferrer" target="_blank" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a></span>
+                    </div>
+
+                    <div class="home-img">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQF8ZW8Hwa79vQ/profile-displayphoto-shrink_200_200/0/1694708586613?e=1712793600&v=beta&t=w_qTkKXuqGeffShvianiha92ItPe7KNO5vwyhHNNfF4" alt="foto de perfil">
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <p>Habilidades</p>
+                    <div class="logos"><ul><li><img src="https://skillicons.dev/icons?i=js,ts,nodejs" alt="skill-icon"></li><li><img src="https://skillicons.dev/icons?i=py,selenium" alt="skill-icon"></li><li><img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon"></li></ul></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <div class="about-img">
+                    <img src="https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg" alt="imagem de um notebook com códigos de programação">
+                </div>
+
+                <div class="about-text">
+                    <h4 class="upper-title">Sobre mim</h4>
+                    <h2>Back-end Developer nascido no Rio de Janeiro, Brasil.</h2>
+                    <p>Olá, meu nome é Yuri, e eu sou um Desenvolvedor Back-end. Minha paixão é resolver problemas e encontrar a melhor solução para meus clientes. </p>
+                    <p>Minhas principais habilidades, atualmente, são Javascript/Typescript com NodeJs, além de Python com o framework Selenium. Tenho, também, um vasto conhecimento em HTML5 e CSS3. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Novos projetos em breve...</h2>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-text">
+                <h4 class="upper-title">Contato</h4>
+                <h2>Não seja tímido! Me mande uma mensagem! 👇🏻</h2>
+            </div>
+            <div class="contact-info">
+                <div class="email">
+                    <div class="email-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg>
+                    </div>
+                    <div class="email-text">
+                        <p>E-mail</p>
+                        <a href="mailto:yurimoura@id.uff.br" target="_blank">yurimoura@id.uff.br</a>
+                    </div>
+                </div>
+                <div class="wpp">
+                    <div class="wpp-icon">
+                        <svg height="35" width="35" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 418.135 418.135" xml:space="preserve">
+<g>
+	<path style="fill:#488cd5;" d="M198.929,0.242C88.5,5.5,1.356,97.466,1.691,208.02c0.102,33.672,8.231,65.454,22.571,93.536
+		L2.245,408.429c-1.191,5.781,4.023,10.843,9.766,9.483l104.723-24.811c26.905,13.402,57.125,21.143,89.108,21.631
+		c112.869,1.724,206.982-87.897,210.5-200.724C420.113,93.065,320.295-5.538,198.929,0.242z M323.886,322.197
+		c-30.669,30.669-71.446,47.559-114.818,47.559c-25.396,0-49.71-5.698-72.269-16.935l-14.584-7.265l-64.206,15.212l13.515-65.607
+		l-7.185-14.07c-11.711-22.935-17.649-47.736-17.649-73.713c0-43.373,16.89-84.149,47.559-114.819
+		c30.395-30.395,71.837-47.56,114.822-47.56C252.443,45,293.218,61.89,323.887,92.558c30.669,30.669,47.559,71.445,47.56,114.817
+		C371.446,250.361,354.281,291.803,323.886,322.197z"/>
+	<path style="fill:#488cd5;" d="M309.712,252.351l-40.169-11.534c-5.281-1.516-10.968-0.018-14.816,3.903l-9.823,10.008
+		c-4.142,4.22-10.427,5.576-15.909,3.358c-19.002-7.69-58.974-43.23-69.182-61.007c-2.945-5.128-2.458-11.539,1.158-16.218
+		l8.576-11.095c3.36-4.347,4.069-10.185,1.847-15.21l-16.9-38.223c-4.048-9.155-15.747-11.82-23.39-5.356
+		c-11.211,9.482-24.513,23.891-26.13,39.854c-2.851,28.144,9.219,63.622,54.862,106.222c52.73,49.215,94.956,55.717,122.449,49.057
+		c15.594-3.777,28.056-18.919,35.921-31.317C323.568,266.34,319.334,255.114,309.712,252.351z"/>
+</g>
+</svg>
+                    </div>
+                    <div class="wpp-text">
+                        <p>WhatsApp</p>
+                        <a href="https://wa.me/5521999032721?text=Ol%C3%A1,%20Yuri!%20Estive%20analisando%20o%20seu%20portf%C3%B3lio%20e%20me%20interessei%20em%20marcar%20uma%20entrevista%20com%20voc%C3%AA." target="_blank">(21) 99903-2721</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="footer-text">
+                <h4>Copyright © 2024. All rights are reserved</h4>
+            </div>
+            <div class="social-links"><a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/yuri-moura-dev"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a><a aria-label="github" rel="noreferrer" target="_blank" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a></div>                
+        </div>
+    </section>
+
+    <a class="back-to-top" href="#home">›</a>
+</body>
+</html>
