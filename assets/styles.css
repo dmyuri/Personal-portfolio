@@ -331,7 +331,7 @@ ul {
     transform: rotate(-90deg);
 }
 
-@media (min-width: 801px) and (max-width: 1599px) {
+@media (min-width: 801px) and (max-width: 1040px) {
     .home {
         justify-content: center;
         height: calc(100vh - 80px);
