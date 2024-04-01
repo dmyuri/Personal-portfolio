@@ -1,1 +1,3 @@
-Projeto de um portfolio fictício, algumas informações são apenas exemplares e não necessariamente são verdadeiras.
+# Personal-portfolio
+
+Projeto de um portfolio fictício, utilizando HTML e CSS. Algumas informações são apenas exemplares e não necessariamente são verdadeiras.
